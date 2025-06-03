@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Step 1: Load and preprocess the data
+
 def load_data():
     # Load the dataset (assuming it's available via loadFileData in the environment)
     data = loadFileData("C:/Users/kavya/Downloads/imdb_top_1000.csv")
