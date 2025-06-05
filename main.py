@@ -1,3 +1,4 @@
+#This code if for the project Movie_Recommendation_System and this is a python file
 import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
