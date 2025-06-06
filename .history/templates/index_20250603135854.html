@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card" id="movie-card">
+            <img id="movie-poster" src="" alt="Movie Poster">
+            <h2 id="movie-title"></h2>
+            <p id="movie-overview"></p>
+            <div class="buttons">
+                <button onclick="swipe('dislike')">Dislike</button>
+                <button onclick="swipe('maybe')">Maybe</button>
+                <button onclick="swipe('like')">Like</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/swipe.js') }}"></script>
+</body>
+</html>
